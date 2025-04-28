@@ -43,15 +43,15 @@ export default function Interactive(props) {
     }
   }
 
-  if (props.email === '' || location['latitude'] === null || location['longitude'] === null) {
-    return (
-      <div style={{textAlign: 'center'}}>
-        <Alert key='danger' variant='danger'>
-          Please Login and Give Permission to Location
-        </Alert>
-      </div>
-    )
-  }
+  // if (props.email === '' || location['latitude'] === null || location['longitude'] === null) {
+  //   return (
+  //     <div style={{textAlign: 'center'}}>
+  //       <Alert key='danger' variant='danger'>
+  //         Please Login and Give Permission to Location
+  //       </Alert>
+  //     </div>
+  //   )
+  // }
 
   return (
     <>
